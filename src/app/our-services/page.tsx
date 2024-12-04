@@ -1,15 +1,17 @@
 import React from "react";
+import Image from "next/image";
+
 const Coffee=()=>{
     const coffeeData=[
-        {id: 1, name:"chock full o'Nuts", price: 8.48 ,description:'coffee beans', image:"/images/image18.jpeg"},
+        {id: 1, name:"chock full o'Nuts", price: 8.48 ,description:'coffee beans', image:"/images/imageA.jpeg"},
         {id: 2, name:"Cuppuchino", price: 36.00 ,description:'coffee-bean-pacific-park', image:"/images/chocknut.jpeg"},
-        {id: 3, name:"Kahwa Coffee", price: 43.01 ,description:'Kahwa Coffee Roasters', image:"/images/image20.jpeg"},
-        {id: 4, name:"But first cold coffee", price: 20.48 ,description:'Cold coffee beans', image:"/images/coffee-bean-pacific-park-santa-monica-pier.jpg"},
-        {id: 5, name:"Frapuccino Coffee", price: 63.00 ,description:'Freshest coffee ', image:"/images/images2.jpeg"},
-        {id: 6, name:"Hot Coffee", price: 8.48 ,description:'Hot coffee', image:"/images/image7.jpeg"},
-        {id: 7, name:"Hot Cocoa Mix", price: 14.99 ,description:'Pure Organic Stevia Liquid', image:"/images/images12.jpeg"},
+        {id: 3, name:"Kahwa Coffee", price: 43.01 ,description:'Kahwa Coffee Roasters', image:"/images/imageB.jpeg"},
+        {id: 4, name:"But first cold coffee", price: 20.48 ,description:'Cold coffee beans', image:"/images/coffeebeans.jpg"},
+        {id: 5, name:"Frapuccino Coffee", price: 63.00 ,description:'Freshest coffee ', image:"/images/imagesC.jpeg"},
+        {id: 6, name:"Hot Coffee", price: 8.48 ,description:'Hot coffee', image:"/images/coffeecup.jpeg"},
+        {id: 7, name:"Hot Cocoa Mix", price: 14.99 ,description:'Pure Organic Stevia Liquid', image:"/images/kahwa.jpeg"},
         {id: 8, name:"Coffee Creamer", price: 29.88 ,description:'Nestle Coffee mate Chocolate', image:"/images/th.jpg"},
-        {id: 9, name:"Organic Cacao Powder", price: 14.00 ,description:'Powdered Drink Mixes & Flavorings', image:"/images/th (10).jpeg"},
+        {id: 9, name:"Organic Cacao Powder", price: 14.00 ,description:'Powdered Drink Mixes & Flavorings', image:"/images/cream.jpeg"},
     ];
 
     return (
@@ -23,7 +25,9 @@ const Coffee=()=>{
               <button className="my-4 px-4 py-2 bg-slate-600 text-white rounded-md">Add to Cart</button>
             </div>
           ))}
+            
         </div>
+      
       );
     };
     
