@@ -7,7 +7,7 @@ const Latest = () => {
         <div className="relative w-full h-64 border-b-red-400 mb-4 object-cover rounded-md">
           <Image
             className="relative w-full h-64 border-b-red-400 mb-4 object-cover rounded-md"
-            src="/images/coffeebrand1.jpg"
+            src="/images/coffeebrand.jpg"
             alt="tag"
             width={200}
             height={200}
@@ -25,7 +25,7 @@ const Latest = () => {
         <div className="relative w-full h-64 border-b-red-400 mb-4 object-cover rounded-md">
           <Image
             className="relative w-full h-64 border-b-red-400 mb-4 object-cover rounded-md"
-            src="/images/coffeebrand2.jpg"
+            src="/images/cbrand.jpg"
             alt="tag"
             width={200}
             height={200}
@@ -43,7 +43,7 @@ const Latest = () => {
         <div className="relative w-full h-64 border-b-red-400 mb-4 object-cover rounded-md">
           <Image
             className="relative w-full h-64 border-b-red-400 mb-4 object-cover rounded-md"
-            src="/images/coffeebrand3.jpg"
+            src="/images/coffeebrand.jpg"
             alt="tag"
             width={200}
             height={200}
